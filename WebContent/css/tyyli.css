@@ -1,0 +1,172 @@
+  h1 {
+    font-size: 22px;  
+  }
+  h2 {
+    font-size: 20px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+
+@media screen and (max-width: 992px) {
+
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 18px;  
+  }
+  h2 {
+    font-size: 16px;  
+  }
+  h3 {
+    font-size: 14px;  
+  }
+  
+}
+
+
+
+
+
+
+body {background-image:url(../images/doombg.jpg); /* M‰‰ritell‰‰n sivun tausta */
+		background-repeat: no-repeat;
+    background-attachment: fixed;
+	margin-bottom: 60px;
+	background-repeat: repeat-x;
+}
+
+p  {font-size: 14px;}
+
+#pizzalistavari1ylin
+{
+
+background-color:rgba(255,255,255,1); /* Laatikon taustalle v‰ri ja l‰pin‰kyvyys */
+padding:15px;
+border: 1px solid black; /* Reunuksen v‰ri */
+border-radius: 10px 10px 0px 0px; 
+}
+
+#pizzalistavari1 
+{
+
+background-color:rgba(255,255,255,1); /* Laatikon taustalle v‰ri ja l‰pin‰kyvyys */
+padding:15px;
+border: 1px solid black; /* Reunuksen v‰ri */
+display: block;
+word-wrap: break-word;
+
+}
+
+#pizzalistavari2 
+{
+
+background-color:rgba(238,255,249,1); /* Laatikon taustalle v‰ri ja l‰pin‰kyvyys */
+padding:15px;
+
+border: 1px solid black; /* Reunuksen v‰ri */
+display: block;
+word-wrap: break-word;
+
+
+}
+
+.jumbotron {
+   background: rgb(238, 238, 238); /* This is for ie8 and below */
+   background: rgba(238, 238, 238, 0.9); 
+}
+
+#yhteystiedot /*Laatikko, johon tulee sivuston p‰‰sis‰ltˆ. Laatikko on l‰pin‰kyv‰n responsiivisen containerin sis‰ll‰, joten sen leveytt‰ ei tarvitse m‰‰ritell‰*/
+{
+	max-width: 300px;
+	    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 25px;
+border: 1px solid black; /* Reunuksen v‰ri */
+background-color:rgba(255,255,255,0); /* Laatikon taustalle v‰ri ja l‰pin‰kyvyys */
+border-radius:5px; /* Kulmien pyˆristys */
+padding-top:15px; /* Tyhj‰‰ tilaa ennen sis‰ltˆ‰ */
+padding-left:15px;
+padding-right:15px;
+padding-bottom:15px; 
+
+position:relative;
+}	
+
+#mustareuna
+{
+	    margin-left: auto;
+    margin-right: auto;
+border: 1px solid black;
+max-width: 300px; /* Reunuksen v‰ri */
+border-radius:5px;
+}
+
+  .bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  
+  background-color: rgba(122, 122, 122, 1);
+  background-image:url(../images/footer.png);
+}
+
+
+.pienipunainenbox {
+    border-radius:5px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+
+iframe /* m‰‰ritell‰‰n google-maps kartalle arvot */ { 
+	margin-left:10px;
+	margin-right:10px;
+	text-align: left;  /* vasen laita */
+	width:100%; /* leveys 100% boksin leveydest‰, mik‰li leveys alle 600 pikseli‰ */
+	max-width:600px; /* kartan maksimileveys */
+	height:468px; /* korkeus */
+	padding-bottom:20px; /* tyhj‰ tila kartan alla */
+	border: 1px solid black;
+	
+	
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+
+
+
+
+
+
